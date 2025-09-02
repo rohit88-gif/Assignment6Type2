@@ -1,0 +1,30 @@
+
+
+
+     int checkNumber();
+     int main()
+     {
+     	checkNumber();
+     	return 0;
+	 }
+	 
+	    int checkNumber()
+	 {
+	 	int num;
+	 	
+	 	printf("enter the number");
+	 	scanf("%d",&num);
+	 	
+	 	if(num>0)
+	 	{
+	 		printf("it is positive number");
+		 }
+		 else
+		 {
+		 	printf("it is negative number");
+		 }
+	 	 
+	 	 return 0;
+	 	
+	 }
+     
