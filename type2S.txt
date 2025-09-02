@@ -1,0 +1,22 @@
+
+
+addition 2 number 
+
+    int add();
+    int main()
+    {
+    	 add();
+    	return 0;
+	}
+	int add()
+	{
+		int num1,num2;
+		
+		printf("enter the 2 number");
+		scanf("%d%d",&num1,&num2);
+		
+		int sum=num1+num2;
+		
+		printf("sum is%d",sum);
+		return sum;
+	}
